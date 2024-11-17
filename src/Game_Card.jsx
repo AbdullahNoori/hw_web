@@ -8,7 +8,7 @@ function GameCard() {
   return (
     <>
     <h1 className="text-xl pl-4  mb-3 bg-gradient-to-t from-stone-500 to-stone-400 w-2/5 rounded-sm"> Latest Games on The Market </h1>
-    <div className="flex justify-center gap-4 flex-wrap pb-8">
+    <div className="flex justify-center gap-4 flex-wrap pb-8 text-sm">
 
       <img src={gta} alt="404" className='w-28 shadow-2xl rounded-lg' />
       <h3 className=""> GTA 5 </h3>
